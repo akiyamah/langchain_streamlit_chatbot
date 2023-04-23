@@ -39,6 +39,10 @@ st.text(
 st.markdown("##### 質問例")
 st.code("日本人の平均身長は？")
 
+# images/demo.pngを画面表示
+st.markdown("##### デモンストレーション")
+st.image("images/demo.png")
+
 st.subheader("")
 
 
