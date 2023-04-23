@@ -37,6 +37,7 @@ chain = ConversationChain(
 history = []
 
 # Streamlit　タイトル部分のUIの作成
+st.title(OPENAI_API_KEY)
 st.title("AI ChatBot")
 st.subheader("はじめに")
 st.markdown("##### 説明")
