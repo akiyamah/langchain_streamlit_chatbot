@@ -1,5 +1,3 @@
-import os 
-
 import streamlit as st
 from streamlit_chat import message
 
@@ -9,9 +7,8 @@ from langchain.chains import ConversationChain
 from langchain.schema import HumanMessage, AIMessage
 
 
-# 環境変数の読み込み
+# 環境変数の読み込み 実際の値はstreamlitのアプリ設定画面で環境変数として登録
 OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
-
 
 # ChatGPTのインスタンス作成
 chat_gpt = ChatOpenAI(model_name="gpt-3.5-turbo")
@@ -32,7 +29,6 @@ chain = ConversationChain(
 history = []
 
 # Streamlit　タイトル部分のUIの作成
-st.title(OPENAI_API_KEY)
 st.title("AI ChatBot")
 st.subheader("はじめに")
 st.markdown("##### 説明")
