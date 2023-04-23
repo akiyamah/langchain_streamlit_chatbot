@@ -10,7 +10,7 @@ from langchain.schema import HumanMessage, AIMessage
 
 
 # 環境変数の読み込み
-OPENAI_API_KEY = os.environ("OPENAI_API_KEY")
+OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
 
 # ChatGPTのインスタンス作成
 chat_gpt = ChatOpenAI(model_name="gpt-3.5-turbo")
