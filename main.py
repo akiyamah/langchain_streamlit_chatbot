@@ -11,8 +11,8 @@ from langchain.schema import HumanMessage, AIMessage
 
 # 環境変数の読み込み
 import os
-api_key = os.getenv("OPENAI_API_KEY")
-if api_key is None:
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+if OPENAI_API_KEY is None:
     print("APIキーが設定されていません")
 else:
     print("APIキーが設定されました")
