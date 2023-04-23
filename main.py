@@ -10,12 +10,7 @@ from langchain.schema import HumanMessage, AIMessage
 
 
 # 環境変数の読み込み
-import os
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-if OPENAI_API_KEY is None:
-    print("APIキーが設定されていません")
-else:
-    print("APIキーが設定されました")
+OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
 
 
 # ChatGPTのインスタンス作成
