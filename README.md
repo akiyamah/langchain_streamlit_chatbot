@@ -2,6 +2,7 @@
 
 # ゴール
 langchainで過去の質問内容を連鎖しながらchatGPTに質問を行うアプリをstreamlitで構築しstreamlit cloudで公開する。
+https://akiyamah-langchain-streamlit-chatbot-main-v632b1.streamlit.app/
 
 # 学習
 * langchainのchat message連鎖
