@@ -5,11 +5,11 @@ langchainで過去の質問内容を連鎖しながらchatGPTに質問を行う�
 https://akiyamah-langchain-streamlit-chatbot-main-v632b1.streamlit.app/
 
 ## 学習
-* langchainのchat message連鎖により過去の会話を引き継いだチャットが行える
+* langchainのchat message連鎖により過去の会話を引き継いだチャット
 * streamlitでの簡易的なアプリ作成
 * streamlit cloudでアプリ公開
 ![過去の会話を引き継いだチャット](https://github.com/akiyamah/langchain_streamlit_chatbot/blob/main/images/test.png)
-
+これは以前Line botと連携したchatGPTを作成した際の問題点、過去のチャット内容を含めたチャットが行えなかった問題を解消。
 
 ## 前提
 * ChatGPTのAPI key取得(https://platform.openai.com/)
