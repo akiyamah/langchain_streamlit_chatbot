@@ -14,6 +14,7 @@ https://akiyamah-langchain-streamlit-chatbot-main-v632b1.streamlit.app/
 # 前提
 * ChatGPTのAPI key取得(https://platform.openai.com/)
 * streamlitアカウント登録(https://streamlit.io/)
+* langchainの確認(https://js.langchain.com/docs/)
 
 # 外部ライブラリのインストール
 ```
