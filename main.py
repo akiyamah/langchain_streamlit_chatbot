@@ -44,7 +44,8 @@ st.subheader("")
 
 with st.form(key="message_form"):
     # form 送信後は空になる
-    text_input = st.text_input("メッセージ")
+    text_input = st.text_input("メッセージ", value="", key="message_input")
+
     # ボタン
     send_button = st.form_submit_button("送信")
     
